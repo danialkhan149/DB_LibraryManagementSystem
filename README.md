@@ -27,4 +27,4 @@ This is a comprehensive relational database system built using Microsoft SQL Ser
 * Open `SQL_Scripts.sql` file in SQL Server
 * Run all queries to create all tables and insert sample data
 * For Checking CRUD Queries:
-  Open `CRUD_Queries.sql` file in SQL Server and connect to the libraryDB Database. From there, you can run different CRUD queries.
+  Open `CRUD_Queries.sql` file in SQL Server and connect to the `libraryDB` Database. From there, you can run different CRUD queries.
