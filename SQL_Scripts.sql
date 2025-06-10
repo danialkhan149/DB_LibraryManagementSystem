@@ -74,7 +74,7 @@ CREATE TABLE Member (
     LastName NVARCHAR(50),
     Email NVARCHAR(100),
     Phone NVARCHAR(20),
-    MembershipType NVARCHAR(30)
+    MembershipType NVARCHAR(30) NOT NULL CHECK (MembershipType IN ('Premium', 'Regular'))
 );
 
 CREATE TABLE Staff (
