@@ -114,7 +114,7 @@ CREATE TABLE Fine (
 
 CREATE TABLE Reservation (
     ReservationID INT IDENTITY(1,1) PRIMARY KEY,
-    InventoryID INT,
+    InventoryID INT UNIQUE,
     MemberID INT,
     ReservationDate DATE,
     ExpiryDate DATE,
