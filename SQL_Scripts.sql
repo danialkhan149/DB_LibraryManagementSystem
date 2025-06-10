@@ -61,7 +61,7 @@ CREATE TABLE Inventory (
     BranchID INT,
     CopyNumber INT,
     AcquisitionDate DATE,
-    Status NVARCHAR(20),
+    Status NVARCHAR(20) NOT NULL CHECK (Status IN ('Available', 'Loaned')),
 	CONSTRAINT fk_Inventory_Book
     FOREIGN KEY (BookID) REFERENCES Book(BookID),
 	CONSTRAINT fk_Inventory_Branch
