@@ -34,7 +34,7 @@ This is a comprehensive relational database system built using Microsoft SQL Ser
 
 * For Checking CRUD Queries:
 
-* * Open `CRUD_Queries.sql` file in SQL Server and connect to the `libraryDB` Database. There are two kinds of CRUD Queries: Simple CRUD Queries and Stored       Procedures
+  * Open `CRUD_Queries.sql` file in SQL Server and connect to the `libraryDB` Database. There are two kinds of CRUD Queries: Simple CRUD Queries and Stored       Procedures
   
   * To check stored Procedures, run the procedures first and then run the EXEC commands.
 
@@ -53,13 +53,13 @@ This is a comprehensive relational database system built using Microsoft SQL Ser
 
 * Features:
 
-* * Have 4 forms for MainMenu, View Books, Manage Genre, Manage Publisher
+  * Have 4 forms for MainMenu, View Books, Manage Genre, Manage Publisher
 
   * MainMenu can be used to access the rest of the forms
 
   * View Books:
 
-  * * View all books
+    * View all books
   
     * Add a new member
 
@@ -72,7 +72,6 @@ This is a comprehensive relational database system built using Microsoft SQL Ser
   * Manage Publisher: Can Add, Update, and Delete Publisher Records
 
 * Connected directly to the SQL Server backend
-
 
 ## Submission
 * Submitted on: 11/06/2025
