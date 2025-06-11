@@ -53,11 +53,11 @@ This is a comprehensive relational database system built using Microsoft SQL Ser
 
 * Features:
 
-  * Have 4 forms for MainMenu, View Books, Manage Genre, Manage Publisher
+  * Have 4 forms for `MainForm`, `View Books`, `Manage Genre`, `Manage Publisher`
 
-  * MainMenu can be used to access the rest of the forms
+  * `MainForm` can be used to access the rest of the forms
 
-  * View Books:
+  * `View Books`:
 
     * View all books
   
@@ -67,9 +67,9 @@ This is a comprehensive relational database system built using Microsoft SQL Ser
 
     * Add new Staff
 
-  * Manage Genre: Can Add, Update and Delete Genre Records
+  * `Manage Genre`: Can Add, Update and Delete Genre Records
 
-  * Manage Publisher: Can Add, Update, and Delete Publisher Records
+  * `Manage Publisher`: Can Add, Update, and Delete Publisher Records
 
 * Connected directly to the SQL Server backend
 
